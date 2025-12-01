@@ -1,0 +1,6 @@
+,precision,recall,f1-score,support
+Approved,1.0,1.0,1.0,5001.0
+Rejected,1.0,0.92,0.96,25.0
+accuracy,1.0,1.0,1.0,1.0
+macro avg,1.0,0.96,0.98,5026.0
+weighted avg,1.0,1.0,1.0,5026.0

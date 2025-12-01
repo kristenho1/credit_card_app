@@ -2,22 +2,21 @@ import streamlit as st
 import pandas as pd
 
 
-st.title("Understanding Models")
-st.write("Compare the available machine learning models for predicting customer satisfaction "
-           "and choose the best one for your needs")
+st.markdown("<h1 style='text-align: center;'>🔎 Understanding Models</h1>", unsafe_allow_html = True)
+st.markdown("<p style='text-align: center;'>FCompare the available machine learning models for predicting customer satisfaction and choose the best one for your needs </p>", unsafe_allow_html = True)
 
 
-st.sidebar.header("Why Learn about the Models")
+st.sidebar.header("Why Learn about the Models❓")
 st.sidebar.write("In the next step, you'll be selecting a machine learning model"
        " for analying customer satisfaction data. It's important to understand"
        " the stregths and trade-offs of each model to make the best choice.")
 st.sidebar.write("Here's what you'll find on this page:")
-st.sidebar.markdown("- **Model Explanations**: Learn about Decision Tree, Random Forest, AdaBoost, and the Soft Voting Classifer")
-st.sidebar.markdown("- **Visual Results**: Examine confusion matrices for each model.")
-st.sidebar.markdown("- **Reports**: Download classification reports for deeper analysis.")
+st.sidebar.markdown("- 💡**Model Explanations**: Learn about Decision Tree, Random Forest, AdaBoost, and the Soft Voting Classifer")
+st.sidebar.markdown("- 📊**Visual Results**: Examine confusion matrices for each model.")
+st.sidebar.markdown("- 📋**Reports**: Download classification reports for deeper analysis.")
 
 
-st.header("About the Models")
+st.header("ℹ️ About the Models")
 with st.expander("Decision Tree"):
    st.markdown("- A simple, interpretable model that split data into branches based on features.")
    st.markdown("- Works well with small datasets and is easy to visualize.")
@@ -37,7 +36,7 @@ with st.expander("AdaBoost"):
 
 
 
-st.header("Choosing the Right Model")
+st.header("✔️ Choosing the Right Model")
 st.markdown("- Use **Decision Tree** for quick analysis or when interpretability is crucial.")
 st.markdown("- Use **Random Forest** for a robust balance of accuracy and generalization.")
 st.markdown("- Use **AdaBoost** for imbalanced datasets or when misclassificatioin costs are high.")

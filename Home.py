@@ -19,9 +19,9 @@ st.image('credit_card.png', width = 700,
 with st.expander("**What can you do with this app?**"):
     st.write("**📝 Fill Out a Survey:** Complete survey with your information.")
     st.write("""**📊 Visualize Satisfaction Trends:** Analyze data and identify:
-             \n- 
-             \n- 
-             \n- 
+             \n- Areas affecting your credit card approval.
+             \n- Main factors influencing approval decisions.
+             \n- How to improve your chances of approval.
              """)
     st.write("**🌟 Make Data-Driven Decisions:** Use insights to guide what to improve to gain approval")
     st.write("**🛠️ Interactive Features:** Explore data with fully interactive charts and summaries.")
