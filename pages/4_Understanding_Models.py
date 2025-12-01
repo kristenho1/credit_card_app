@@ -1,6 +1,7 @@
 import streamlit as st
 import pandas as pd
 
+st.set_page_config(page_title = "Understanding Models", page_icon = "💡")
 
 st.markdown("<h1 style='text-align: center;'>🔎 Understanding Models</h1>", unsafe_allow_html = True)
 st.markdown("<p style='text-align: center;'>FCompare the available machine learning models for predicting customer satisfaction and choose the best one for your needs </p>", unsafe_allow_html = True)

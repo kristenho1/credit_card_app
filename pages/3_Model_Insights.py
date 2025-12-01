@@ -1,6 +1,8 @@
 import streamlit as st
 import pandas as pd
 
+st.set_page_config(page_title = "Model Insights", page_icon = "📊")
+
 if "form_submitted" in st.session_state:
     model_name = st.sidebar.radio(
     "Choose a Model",
