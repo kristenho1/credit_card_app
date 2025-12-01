@@ -8,6 +8,7 @@ import pandas as pd
 import warnings
 warnings.filterwarnings("ignore")
 
+st.set_page_config(page_title = "User Form", page_icon = "📝")
 
 # Set up the title and description of the app
 st.markdown("<h1 style='text-align: center;'>Fill Out the Credit Card Survey</h1>", unsafe_allow_html=True) 
