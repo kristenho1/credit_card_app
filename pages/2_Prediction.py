@@ -110,31 +110,15 @@ if "form_submitted" in st.session_state:
                     st.link_button("Apply: Capital One Venture X Rewards Credit Card","https://www.capitalone.com/credit-cards/venture-x/")
                     # used chat for link buttons and credit card suggestions above
             elif suggestion == 'features to focus on.':
-                if model_input == "Decision Tree":
-                    st.markdown("""
+                st.markdown("""
                             The most significant areas to focus on to improve your chances of being accepted are below:
-                            - Total good debt  
-                            - Total bad debt
-                            - Applicant age
-                            - Income type 
+                            - Total debt  
+                            - Applicant age  
+                            - Credit utilization  
+                            - Payment history  
+                            - Length of credit history  
+                            - Recent credit inquiries  
                             """)
-                elif model_input == "Random Forest":
-                    st.markdown("""
-                                The most significant areas to focus on to improve your chances of being accepted are below:
-                                - Total debt  
-                                - Applicant age  
-                                - Credit utilization  
-                                - Payment history  
-                                - Length of credit history  
-                                - Recent credit inquiries  
-                                """)
-                elif model_input == "AdaBoost":
-                    st.markdown("""
-                                The most significant areas to focus on to improve your chances of being accepted are below:
-                                - Years working 
-                                - Total good debt
-                                - Total income
-                                """)
                 st.write("✅ See Model Insights page to get further insight into the features that determine the outcome of the model!")
     # if accepted: give credit card suggestions to apply to
     # if rejected: based on model feature importance give insight into why they might be getting rejected (debt, age, etc)
